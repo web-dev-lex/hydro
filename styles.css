@@ -144,3 +144,55 @@ body {
   font-weight: 300;
 }
 
+@media only screen and (max-width: 1200px) {
+  .main-section {
+    padding: 1em 2em;
+  }
+
+  .left-footer {
+    margin: 6em 0 0 6em
+  }
+
+  .right-footer {
+    margin: 6em 6em 0 0;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    justify-content: center;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .nav-links {
+    padding: 0;
+  }
+
+  .social-links a img {
+    padding: 0 1em;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .left-footer {
+    text-align: center;
+    margin: 6em 0 0 0;
+  }
+
+  .right-footer {
+    text-align: center;
+    margin: 6em 0;
+  }
+
+  .fine-print {
+    align-items: center;
+  }
+}
+
