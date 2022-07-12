@@ -46,16 +46,16 @@ body {
   padding: 0.5em 0.5em;
   margin: 0.5em 1em;
   color: #909190;
+  transition: 0.3s;
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.2em;
+  color: #D3D5D3;
 }
 
-.active {
-  background-color: #EAECEA;
-  border-radius: 1em;
+.nav-links .active {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
 }
 
 .hero-img {
