@@ -92,9 +92,6 @@ body {
   list-style: none;
 }
 
-
-
-
 .image-gallery > li {
   height: 20em;
   cursor: pointer;
@@ -129,6 +126,78 @@ body {
 .image-gallery li:hover .overlay {
   transform: scale(1);
 }
+
+/* Contact page */
+
+.form-container {
+  margin: 5em auto;
+  width: 50%;
+  box-shadow: 0 0 40px #CECFCE;
+  border-radius: 10px;
+}
+
+.form-header-container {
+  display: flex;
+  height: 8em;
+  background-color: #d2d3d2;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.form-container h2 {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 1em;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container label {
+  padding: 1em 0 0.2em 2em;
+}
+
+.input-container input {
+  font-size: 1rem;
+  margin: 0 2em;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 0.5em;
+}
+
+.input-container textarea {
+  font-size: 1rem;
+  margin: 0 2em;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 0.5em;
+}
+
+.btn-container {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.form-btn {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.5em 2em;
+  border-radius: 2em;
+  background-color: #000;
+  color: #fff;
+  transition: 0.3s;
+  border: none;
+}
+
+.form-btn:hover {
+  background-color: #0DA011;
+  color: #fff;
+}
+
 
 .footer {
   display: flex;
