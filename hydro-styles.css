@@ -79,6 +79,12 @@ body {
   padding: 1em 0;
 }
 
+.para-box {
+  width: 50%;
+  margin: 0 auto 5em auto;
+  font-size: 1.2rem;
+}
+
 /*Gallery Page */
 
 .container {
@@ -275,6 +281,10 @@ body {
 
   .right-footer {
     margin: 6em 6em 0 0;
+  }
+
+  .para-box {
+    width: 80%;
   }
 }
 
